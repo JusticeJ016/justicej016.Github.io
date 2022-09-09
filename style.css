@@ -1,0 +1,41 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Merriweather', serif;
+	
+}
+body {
+	background: url(header2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size:3rem ;
+	color: #e2dbdb;
+}
+hr{ border-color: #E75B00;
+	border-width: 2px;
+	max-width: 65px;
+}
+.btn-find{
+	padding: 0.5em 1em;
+	font-weight: bold;
+	border-radius: 300px;
+	border-color: #E75B00;
+	text-transform: uppercase;
+	background-color: #E75B00;
+}
+.btn-find:hover {
+	border-color: #8F3800;
+	background-color: #8F3800;
+	border-width: 4px;
+}
+.buffer{
+	height: 20rem;
+}
+.raise{
+	margin-bottom: 5rem;
+}
